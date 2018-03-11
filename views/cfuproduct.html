@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css"
+    href="https://necolas.github.io/normalize.css/latest/normalize.css">
+  <link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/cerulean/bootstrap.css">
+  <link rel="stylesheet" href="../style.css">
+  <title>Photosynthesis and Cellular Respiration</title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+      $("#answers").click(function(){
+          $("#p1").fadeIn();
+          $("#p2").fadeIn();
+          $("#p3").fadeIn();
+      });
+  });
+  </script>
+</head>
+
+<body>
+  <header>
+    <div id="top" class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h3>Identify the products of photosynthesis</h3>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+          <div class="card-header">Check your understanding <audio controls=
+            "controls" src="../recordings/check-your-understanding-which.m4a">
+          </audio></div>
+          <div class="card-body">
+            <h4 class="card-title">Questions</h4>
+            <p class="card-text">Which chemical process produces oxygen and
+              stored energy?</p>
+            <p class="card-text">Which chemical process releases energy?</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="card border-primary mb-3" style="max-width: 20rem;">
+          <div class="card-header">How did you do?<audio controls="controls" src=
+            "../recordings/photosynthesis-produces.m4a"></audio></div>
+          <div id="answers" class="card-body">
+            <h4 class="card-title">Click for answers</h4>
+            <p id="p1" class="card-text">Photosynthesis produces oxygen and stored energy.</p>
+            <p id="p2" class="card-text">Cellular respiration releases energy.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <ul class="pagination">
+        <li class="page-item">
+          <a class="page-link" href="productoxygen.html">&laquo;</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="../index.html">1</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="cfuenergy.html">2</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="productenergy.html">3</a>
+        </li>
+        <li class="page-item">
+          <a class="page-link" href="productoxygen.html">4</a>
+        </li>
+        <li class="page-item active">
+          <a class="page-link" href="cfuproduct.html">5</a>
+        </li>
+        <li class="page-item disabled">
+          <a class="page-link" href="#">&raquo;</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+</body>
+
+<footer>
+</footer>
+
+</html>
